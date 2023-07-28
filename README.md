@@ -5,4 +5,4 @@ This is quite literally a copy/paste from [BLAKE2](https://github.com/BLAKE2/BLA
 
 I needed it in my .Net Core project, and I'm sure other people as well.
 
-Forked version of https://github.com/The1nk/BLAKE2 to support the .Net Standard 2.1
+Forked version of https://github.com/The1nk/BLAKE2 to support the .Net Standard 2.1 and Visual Studio 2022
