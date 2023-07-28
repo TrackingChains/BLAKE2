@@ -1,13 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <PackageTags>blake2;blake2core;blakedotnet;blakedotnetcore</PackageTags>
-    <RepositoryUrl>https://github.com/TrackingChains/BLAKE2</RepositoryUrl>
-    <Description>Porting of https://github.com/BLAKE2/BLAKE2 for .Net Core</Description>
-    <PackageId>$(AssemblyName)PortingNetCore</PackageId>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<PackageTags>blake2;blake2core;blakedotnet;blakedotnetcore</PackageTags>
+		<RepositoryUrl>https://github.com/TrackingChains/BLAKE2</RepositoryUrl>
+		<Description>Porting of https://github.com/BLAKE2/BLAKE2 for .Net Core</Description>
+		<PackageId>$(AssemblyName)PortingNetCore</PackageId>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+	</ItemGroup>
 
 </Project>

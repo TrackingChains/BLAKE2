@@ -1,0 +1,7 @@
+﻿This is a simple porting of https://blake2.net for support .Net Core
+
+All code is triple-licensed under the CC0, the OpenSSL Licence, or the Apache Public License 2.0, at your choosing.
+
+More: https://blake2.net.
+
+Contact: contact@blake2.net
