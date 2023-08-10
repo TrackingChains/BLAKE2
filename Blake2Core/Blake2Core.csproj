@@ -2,7 +2,6 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
-		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<PackageTags>blake2;blake2core;blakedotnet;blakedotnetcore</PackageTags>
 		<RepositoryUrl>https://github.com/TrackingChains/BLAKE2</RepositoryUrl>
@@ -14,7 +13,7 @@
 
 	<ItemGroup>
 		<None Include="README.md" Pack="true" PackagePath="\" />
-		<None Include="LICENSE.txt" Pack="true" PackagePath=""/>
+		<None Include="LICENSE.txt" Pack="true" PackagePath="" />
 	</ItemGroup>
 
 </Project>
