@@ -9,6 +9,7 @@
 		<PackageId>$(AssemblyName)PortingNetCore</PackageId>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<Version>$(VersionPrefix)1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
